@@ -30,3 +30,14 @@
 *.exe
 *.out
 *.app
+
+# Editor / Binary Files
+
+.vscode/
+exp*/*
+!exp*/Makefile
+!exp*/*.c
+
+# Release
+
+exp2/
